@@ -1,0 +1,33 @@
+# Competition data and derived artifacts (do not commit)
+*.crdownload
+nfl-big-data-bowl-2027.zip
+data/raw/
+outputs/
+submission_kit/
+docs/COMPETITION_SUBMISSION.md
+.validation_*/
+.validation_runtime_*.json
+.validation_runtime_*.log
+*.tmp
+
+# Generated reproducibility bundles
+nfl_speed_project_code.zip
+nfl_speed_project_code.zip.sha256
+
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local run locks / temporary staging
+outputs/.core_run.lock
+.outputs.core-*.staging/
+submission_kit/.submission_kit.lock
+.submission_kit.stage-*/
+.DS_Store
+Thumbs.db
