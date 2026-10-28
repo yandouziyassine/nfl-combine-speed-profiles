@@ -31,3 +31,4 @@ submission_kit/.submission_kit.lock
 .submission_kit.stage-*/
 .DS_Store
 Thumbs.db
+.venv*/
